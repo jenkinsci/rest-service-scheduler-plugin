@@ -1,0 +1,37 @@
+{
+  "queue": [
+    {
+      "id": 2,
+      "priority": 50,
+      "inQueueSince": 3,
+      "name": "Single queue item",
+      "nodes": [
+        {
+          "name": "master",
+          "executors": 2,
+          "freeExecutors": 1
+        }
+      ],
+      "assigned": null
+    },
+    {
+      "id": 4,
+      "priority": 50,
+      "inQueueSince": 5,
+      "name": "raven_eap",
+      "nodes": [
+        {
+          "name": "slave1",
+          "executors": 7,
+          "freeExecutors": 7
+        },
+        {
+          "name": "slave2",
+          "executors": 1,
+          "freeExecutors": 0
+        }
+      ],
+      "assigned": "slave2"
+    }
+  ]
+}

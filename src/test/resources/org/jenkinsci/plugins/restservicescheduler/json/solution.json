@@ -1,0 +1,14 @@
+{
+  "solution": [
+    {
+      "id": 1,
+      "name": "job@1",
+      "node": "slave1"
+    },
+    {
+      "id": 2,
+      "name": "job@2",
+      "node": "not-assigned"
+    }
+  ]
+}

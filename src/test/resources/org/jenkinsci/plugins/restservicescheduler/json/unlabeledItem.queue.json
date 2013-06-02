@@ -1,0 +1,23 @@
+{
+  "queue": [
+    {
+      "id": 2,
+      "priority": 50,
+      "inQueueSince": 3,
+      "name": "Unlabeled item",
+      "nodes": [
+        {
+          "name": "slave_2:1",
+          "executors": 2,
+          "freeExecutors": 1
+        },
+        {
+          "name": "slave_1:2",
+          "executors": 1,
+          "freeExecutors": 2
+        }
+      ],
+      "assigned": null
+    }
+  ]
+}

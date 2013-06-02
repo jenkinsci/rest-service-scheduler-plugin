@@ -1,0 +1,18 @@
+{
+  "queue": [
+    {
+      "id": 2,
+      "priority": 50,
+      "inQueueSince": 3,
+      "name": "Single queue item",
+      "nodes": [
+        {
+          "name": "master",
+          "executors": 2,
+          "freeExecutors": 1
+        }
+      ],
+      "assigned": null
+    }
+  ]
+}
